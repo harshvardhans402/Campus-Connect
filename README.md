@@ -5,7 +5,7 @@ Bulit PHP **Campus|Connect** IN OOP style and using MYSQL Database. AJAX and Jqu
 
 ## Features
 
-- Sign in / Sign UP
+- Sign in 
 - Post Image or Normal Post.
 - RePost or Qoute post (You can qoute the qouted post).
 - Like post.
