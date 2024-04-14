@@ -24,41 +24,9 @@ Bulit PHP **Campus|Connect** IN OOP style and using MYSQL Database. AJAX and Jqu
 
  ```php
     protected static $servername = "localhost";
-    protected static $db_name="twitter";
+    protected static $db_name="";
     protected static $username = "root";
     protected static $password = "";
 ```
  then the project is ready to run in localhost!
-
-## 📷 UI
-
-
-### Index
-![Index](screenshots/Index.png)
-
-### Home
-![Home](screenshots/Home.png)
-
-### post and Comments
-![Post](screenshots/Inner-Post.png)
-
-### Profile
-![Profile](screenshots/Profile.png)
-
-### Notifications
-![Movie](screenshots/Notifications.png)
-
-### Edit Account
-![Edit](screenshots/Edit.png)
-
-### Preview Image before post
-![Post](screenshots/Post.png)
-
-### Users List (For following/likedby etc)
-![Users](screenshots/Users.png)
-
-### Setting
-![Setting](screenshots/Setting.png) 
-
-
 
