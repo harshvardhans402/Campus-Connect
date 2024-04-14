@@ -1,0 +1,7 @@
+install xampp
+run apache server and mysql in xampp
+
+unzip the project in the xammp/htdocs/
+
+
+In the browser .....localhost/projectname
