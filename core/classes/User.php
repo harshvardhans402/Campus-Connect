@@ -19,7 +19,7 @@ class User extends Connect {
       public static  function login ($email , $password) {
         $stmt = self::connect()->prepare("SELECT `id` from `users` WHERE `email` = :email AND `password` = :password");
         $stmt->bindParam(":email" , $email , PDO::PARAM_STR);
-        $password =md5($password);
+        
         $stmt->bindParam(":password" , $password , PDO::PARAM_STR);    
         $stmt->execute();
         $user = $stmt->fetch(PDO::FETCH_OBJ);
@@ -58,7 +58,7 @@ class User extends Connect {
         $stmt = $pdo->prepare("INSERT INTO `users` (`email` , `password` , `name` , `username`) Values (:email , :password , :name , :username)");
 
         $stmt->bindParam(":email" , $email , PDO::PARAM_STR);
-        $password =md5($password);
+        
         $stmt->bindParam(":password" , $password , PDO::PARAM_STR); 
         $stmt->bindParam(":name" , $name , PDO::PARAM_STR);
         $stmt->bindParam(":username" , $username , PDO::PARAM_STR);
